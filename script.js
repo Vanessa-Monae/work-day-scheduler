@@ -30,6 +30,12 @@ $(function () {
   // attribute of each time-block be used to do this?
   let nineAmAppointment = localStorage.getItem("hour-9");
   $("#hour-9 .description").val(nineAmAppointment);
+
+  let tenAmAppointment = localStorage.getItem("hour-10");
+  $("#hour-10 .description").val(tenAmAppointment);
+
+  let elevenAmAppointment = localStorage.getItem("hour-11");
+  $("#hour-11 .description").val(elevenAmAppointment);
   //
   // TODO: Add code to display the current date in the header of the page.
   let today=dayjs().format("dddd, MMMM D, YYYY");
